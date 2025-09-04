@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es, en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TripleTen alrededor de US" />
+    <meta name="author" content="Juan Carlos Loaiza Estrada" />
+    <meta name="keywords" content="viajes, experiencias, fotografia, arte" />
+    <title>Alrededor the US</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+
+    <!-- <link rel="icon" href="./favicon.ico" type="image/x-icon" /> -->
+  </head>
+  <body class="body">
+    <div class="page">
+      <header class="header">
+        <img
+          src="./images/LOGOalreadedortheUS.png"
+          alt="Title logo"
+          class="header__logo"
+        />
+      </header>
+
+      <section class="profile">
+        <img
+          src="./images/Jacobo Gringber.JPG"
+          alt="Profile pic"
+          class="profile__image"
+        />
+
+        <div class="profile__info">
+          <h1 class="profile__name">Jacobo Grinberg</h1>
+          <p class="profile__role">Neurophysiologist</p>
+          <button type="button" class="profile__edit-button">
+            <img
+              src="/images/Vector.png"
+              alt="Edit icon"
+              class="profile__edit-image"
+            />
+          </button>
+        </div>
+
+        <button type="button" class="profile__add-button">
+          <img
+            src="/images/addbutton.png"
+            alt="Add button"
+            class="profile__add-image"
+          />
+        </button>
+      </section>
+
+      <section class="gallery">
+        <div class="gallery__frame">
+          <img
+            src="/images/CARD 6.jpg"
+            alt="Sky full of starts"
+            class="gallery__image"
+          />
+          <p class="gallery__text">Sedona, Arizona</p>
+          <span class="gallery__like-button heart">♡</span>
+        </div>
+
+        <div class="gallery__frame">
+          <img
+            src="/images/CARD 5.jpg"
+            alt="midday drive"
+            class="gallery__image"
+          />
+          <p class="gallery__text">Silicon Valley, California</p>
+          <span class="gallery__like-button heart">♡</span>
+        </div>
+
+        <div class="gallery__frame">
+          <img
+            src="/images/CARD 4.jpg"
+            alt="portal dimension"
+            class="gallery__image"
+          />
+          <p class="gallery__text">Taos, New Mexico</p>
+          <span class="gallery__like-button heart">♡</span>
+        </div>
+
+        <div class="gallery__frame">
+          <img
+            src="/images/CARD 3.jpg"
+            alt="asian guy reflectioning"
+            class="gallery__image"
+          />
+          <p class="gallery__text">Mauna Kea, Hawai</p>
+          <span class="gallery__like-button heart">♡</span>
+        </div>
+
+        <div class="gallery__frame">
+          <img
+            src="/images/CARD 2.jpg"
+            alt="wall quote"
+            class="gallery__image"
+          />
+          <p class="gallery__text">Wynwood Walls, Florida</p>
+          <span class="gallery__like-button heart">♡</span>
+        </div>
+
+        <div class="gallery__frame">
+          <img src="/images/CARD 1.jpg" alt="cyborg" class="gallery__image" />
+          <p class="gallery__text">Redmond, Washington</p>
+          <span class="gallery__like-button heart">♡</span>
+        </div>
+      </section>
+
+      <footer class="footer">© 2025 Around The U.S.</footer>
+
+      <div class="popup popup_show">
+        <div class="popup__content">
+          <h2 class="popup__content-title">Editar perfil</h2>
+          <form class="popup__form">
+            <input
+              type="text"
+              name="Nombre"
+              placeholder="Nombre"
+              class="popup__name popup__input"
+            />
+            <input
+              type="text"
+              name="Acerca"
+              placeholder="Acerca de mi"
+              class="popup__about popup__input"
+            />
+            <button type="submit" class="popup__save-button">Guardar</button>
+          </form>
+          <button class="popup__close-button"></button>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
